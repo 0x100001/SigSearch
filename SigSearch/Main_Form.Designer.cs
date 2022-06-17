@@ -34,6 +34,7 @@
             this.yara_selected_rule_combobox = new System.Windows.Forms.ComboBox();
             this.yara_tabcontrol = new System.Windows.Forms.TabControl();
             this.yara_tabcontrol_search_tab = new System.Windows.Forms.TabPage();
+            this.yara_scan_all_processes_checkbox = new System.Windows.Forms.CheckBox();
             this.yara_search_results_textbox = new FastColoredTextBoxNS.FastColoredTextBox();
             this.yara_search_path_chckbox = new System.Windows.Forms.CheckBox();
             this.yara_search_path_textbox = new System.Windows.Forms.TextBox();
@@ -50,6 +51,7 @@
             this.link_label = new System.Windows.Forms.LinkLabel();
             this.yara_delete_rule_button = new System.Windows.Forms.Button();
             this.yara_new_rule_button = new System.Windows.Forms.Button();
+            this.yara_scan_all_processes_binaries_checkbox = new System.Windows.Forms.CheckBox();
             this.yara_tabcontrol.SuspendLayout();
             this.yara_tabcontrol_search_tab.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.yara_search_results_textbox)).BeginInit();
@@ -95,6 +97,8 @@
             // 
             // yara_tabcontrol_search_tab
             // 
+            this.yara_tabcontrol_search_tab.Controls.Add(this.yara_scan_all_processes_binaries_checkbox);
+            this.yara_tabcontrol_search_tab.Controls.Add(this.yara_scan_all_processes_checkbox);
             this.yara_tabcontrol_search_tab.Controls.Add(this.yara_search_results_textbox);
             this.yara_tabcontrol_search_tab.Controls.Add(this.yara_search_path_chckbox);
             this.yara_tabcontrol_search_tab.Controls.Add(this.yara_search_path_textbox);
@@ -110,6 +114,17 @@
             this.yara_tabcontrol_search_tab.TabIndex = 0;
             this.yara_tabcontrol_search_tab.Text = "Search";
             this.yara_tabcontrol_search_tab.UseVisualStyleBackColor = true;
+            // 
+            // yara_scan_all_processes_checkbox
+            // 
+            this.yara_scan_all_processes_checkbox.AutoSize = true;
+            this.yara_scan_all_processes_checkbox.Location = new System.Drawing.Point(974, 8);
+            this.yara_scan_all_processes_checkbox.Name = "yara_scan_all_processes_checkbox";
+            this.yara_scan_all_processes_checkbox.Size = new System.Drawing.Size(135, 21);
+            this.yara_scan_all_processes_checkbox.TabIndex = 16;
+            this.yara_scan_all_processes_checkbox.Text = "Scan all processes";
+            this.yara_scan_all_processes_checkbox.UseVisualStyleBackColor = true;
+            this.yara_scan_all_processes_checkbox.CheckedChanged += new System.EventHandler(this.yara_scan_all_processes_checkbox_CheckedChanged);
             // 
             // yara_search_results_textbox
             // 
@@ -140,6 +155,7 @@
             this.yara_search_results_textbox.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.yara_search_results_textbox.DisabledColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(180)))), ((int)(((byte)(180)))), ((int)(((byte)(180)))));
             this.yara_search_results_textbox.FoldingIndicatorColor = System.Drawing.Color.LimeGreen;
+            this.yara_search_results_textbox.Font = new System.Drawing.Font("Courier New", 9.75F);
             this.yara_search_results_textbox.IndentBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(58)))), ((int)(((byte)(58)))), ((int)(((byte)(58)))));
             this.yara_search_results_textbox.IsReplaceMode = false;
             this.yara_search_results_textbox.Language = FastColoredTextBoxNS.Language.CSharp;
@@ -367,6 +383,17 @@
             this.yara_new_rule_button.UseVisualStyleBackColor = true;
             this.yara_new_rule_button.Click += new System.EventHandler(this.yara_new_rule_button_Click);
             // 
+            // yara_scan_all_processes_binaries_checkbox
+            // 
+            this.yara_scan_all_processes_binaries_checkbox.AutoSize = true;
+            this.yara_scan_all_processes_binaries_checkbox.Location = new System.Drawing.Point(1115, 8);
+            this.yara_scan_all_processes_binaries_checkbox.Name = "yara_scan_all_processes_binaries_checkbox";
+            this.yara_scan_all_processes_binaries_checkbox.Size = new System.Drawing.Size(194, 21);
+            this.yara_scan_all_processes_binaries_checkbox.TabIndex = 17;
+            this.yara_scan_all_processes_binaries_checkbox.Text = "Scan all processes (binaries)";
+            this.yara_scan_all_processes_binaries_checkbox.UseVisualStyleBackColor = true;
+            this.yara_scan_all_processes_binaries_checkbox.CheckedChanged += new System.EventHandler(this.yara_scan_all_processes_binaries_checkbox_CheckedChanged);
+            // 
             // Main_Form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -413,6 +440,8 @@
         private System.Windows.Forms.TextBox yara_search_args_textbox;
         public FastColoredTextBoxNS.FastColoredTextBox yara_search_results_textbox;
         private System.Windows.Forms.LinkLabel link_label;
+        private System.Windows.Forms.CheckBox yara_scan_all_processes_checkbox;
+        private System.Windows.Forms.CheckBox yara_scan_all_processes_binaries_checkbox;
     }
 }
 

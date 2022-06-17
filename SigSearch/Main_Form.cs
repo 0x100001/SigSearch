@@ -147,11 +147,9 @@ namespace SigSearch
                     yara_proc.Start();
                     string result = yara_proc.StandardOutput.ReadToEnd(); //Collect Output
                     yara_proc.WaitForExit();
-
-                    File.AppendAllText(Application.StartupPath + @"\Results\" + date + ".txt", result);
                     yara_search_results_textbox.Text = result;
 
-                    MessageBox.Show("Scan finished.", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    File.AppendAllText(Application.StartupPath + @"\Results\path_" + date + ".txt", yara_search_results_textbox.Text);
                 }
                 catch (Exception ex)
                 {
@@ -171,34 +169,127 @@ namespace SigSearch
                     yara_proc.Start();
                     string result = yara_proc.StandardOutput.ReadToEnd(); //Collect Output
                     yara_proc.WaitForExit();
-
-                    File.AppendAllText(Application.StartupPath + @"\Results\" + date + ".txt", result);
                     yara_search_results_textbox.Text = result;
 
-                    MessageBox.Show("Scan finished.", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    File.AppendAllText(Application.StartupPath + @"\Results\proc_" + date + ".txt", yara_search_results_textbox.Text);
                 }
                 catch (Exception ex)
                 {
                     MessageBox.Show("Scan failed: " + ex.Message, "Information", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
+            else if (yara_scan_all_processes_checkbox.Checked)
+            {
+                var allProcesses = Process.GetProcesses();
+
+                foreach (var process in allProcesses)
+                {
+                    try
+                    {
+                        Process yara_proc = new Process();
+                        yara_proc.StartInfo.UseShellExecute = false;
+                        yara_proc.StartInfo.RedirectStandardOutput = true;
+                        yara_proc.StartInfo.CreateNoWindow = true;
+                        yara_proc.StartInfo.FileName = Application.StartupPath + @"\yara64.exe";
+                        yara_proc.StartInfo.Arguments = yara_search_args_textbox.Text + " " + @" """ + Application.StartupPath + @"\Sigs\YARA\" + yara_selected_rule_combobox.SelectedItem.ToString() + "\" \"" + process.Id + "\"";
+                        yara_proc.Start();
+                        string result = yara_proc.StandardOutput.ReadToEnd(); //Collect Output
+                        yara_proc.WaitForExit();
+
+                        //If result
+                        if (!String.IsNullOrEmpty(result))
+                            yara_search_results_textbox.AppendText(result + " Process name: " + process.ProcessName + "(" + process.Id + ")" + " Path: " + process.MainModule.FileName + Environment.NewLine + Environment.NewLine);
+                    }
+                    catch (Exception ex)
+                    {
+                        yara_search_results_textbox.AppendText("Error: " + ex.Message + " Process name: " + process.ProcessName + "(" + process.Id + ")" + Environment.NewLine + Environment.NewLine);
+                    }
+                }
+
+                File.AppendAllText(Application.StartupPath + @"\Results\all_proc_" + date + ".txt", yara_search_results_textbox.Text);
+            }
+            else if (yara_scan_all_processes_binaries_checkbox.Checked)
+            {
+                var allProcesses = Process.GetProcesses();
+
+                foreach (var process in allProcesses)
+                {
+                    try
+                    {
+                        Process yara_proc = new Process();
+                        yara_proc.StartInfo.UseShellExecute = false;
+                        yara_proc.StartInfo.RedirectStandardOutput = true;
+                        yara_proc.StartInfo.CreateNoWindow = true;
+                        yara_proc.StartInfo.FileName = Application.StartupPath + @"\yara64.exe";
+                        yara_proc.StartInfo.Arguments = yara_search_args_textbox.Text + " " + @" """ + Application.StartupPath + @"\Sigs\YARA\" + yara_selected_rule_combobox.SelectedItem.ToString() + "\" \"" + process.MainModule.FileName + "\"";
+                        yara_proc.Start();
+                        string result = yara_proc.StandardOutput.ReadToEnd(); //Collect Output
+                        yara_proc.WaitForExit();
+
+                        //If result
+                        if (!String.IsNullOrEmpty(result))
+                            yara_search_results_textbox.AppendText(result + " Process name: " + process.ProcessName + "(" + process.Id + ")" + " Path: " + process.MainModule.FileName + Environment.NewLine + Environment.NewLine);
+                    }
+                    catch (Exception ex)
+                    {
+                        yara_search_results_textbox.AppendText("Error: " + ex.Message + " Process name: " + process.ProcessName + "(" + process.Id + ")" + Environment.NewLine + Environment.NewLine);
+                    }
+                }
+
+                File.AppendAllText(Application.StartupPath + @"\Results\all_proc_binaries_" + date + ".txt", yara_search_results_textbox.Text);
+            }
+            else
+            {
+                MessageBox.Show("You need to select a scan option.", "Information", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+
+            MessageBox.Show("Scan finished.", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
         private void yara_search_proc_chckbox_CheckedChanged(object sender, EventArgs e)
         {
             if (yara_search_proc_chckbox.Checked == true)
+            {
                 yara_search_path_chckbox.Checked = false;
+                yara_scan_all_processes_checkbox.Checked = false;
+                yara_scan_all_processes_binaries_checkbox.Checked = false;
+            }
         }
 
         private void yara_search_path_chckbox_CheckedChanged(object sender, EventArgs e)
         {
             if (yara_search_path_chckbox.Checked == true)
+            {
                 yara_search_proc_chckbox.Checked = false;
+                yara_scan_all_processes_checkbox.Checked = false;
+                yara_scan_all_processes_binaries_checkbox.Checked = false;
+            }
         }
 
         private void link_label_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             Process.Start("https://github.com/0x100001/SigSearch");
+        }
+
+        private void yara_scan_all_processes_checkbox_CheckedChanged(object sender, EventArgs e)
+        {
+            if (yara_scan_all_processes_checkbox.Checked == true)
+            {
+                yara_search_path_chckbox.Checked = false;
+                yara_search_proc_chckbox.Checked = false;
+                yara_scan_all_processes_binaries_checkbox.Checked = false;
+            }
+        }
+
+        private void yara_scan_all_processes_binaries_checkbox_CheckedChanged(object sender, EventArgs e)
+        {
+            if (yara_scan_all_processes_binaries_checkbox.Checked == true)
+            {
+                yara_scan_all_processes_checkbox.Checked = false;
+                yara_search_path_chckbox.Checked = false;
+                yara_search_proc_chckbox.Checked = false;
+            }
         }
     }
 }

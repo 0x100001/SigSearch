@@ -1,0 +1,21 @@
+silent_banker 724
+ Process name: SigSearch(724) Path: C:\Users\User\OneDrive - 0x101 Cyber Security\Projekte\SigSearch(1)\SigSearch\SigSearch\bin\x64\Debug\SigSearch.exe
+
+silent_banker 12068
+ Process name: chrome(12068) Path: C:\Program Files\Google\Chrome\Application\chrome.exe
+
+silent_banker 9676
+ Process name: OneDrive(9676) Path: C:\Program Files\Microsoft OneDrive\OneDrive.exe
+
+silent_banker 6160
+ Process name: svchost(6160) Path: C:\Windows\system32\svchost.exe
+
+silent_banker 8304
+ Process name: SearchApp(8304) Path: C:\Windows\SystemApps\Microsoft.Windows.Search_cw5n1h2txyewy\SearchApp.exe
+
+silent_banker 6928
+ Process name: chrome(6928) Path: C:\Program Files\Google\Chrome\Application\chrome.exe
+
+silent_banker 12084
+ Process name: chrome(12084) Path: C:\Program Files\Google\Chrome\Application\chrome.exe
+
