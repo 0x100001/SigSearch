@@ -8,10 +8,9 @@ https://yara.readthedocs.io/en/stable/
 
 The results are additionally being saved into the results directory with a timestamp.
 
-Features:
--Rule editor
--Custom arguments
--Scan path
--Scan process
--Scan all processes
+Features: Rule editor
+-Custom arguments  
+-Scan path  
+-Scan process  
+-Scan all processes  
 -Scan all processes (binaries)
