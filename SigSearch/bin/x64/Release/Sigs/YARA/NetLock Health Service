@@ -1,0 +1,16 @@
+rule NetLock_Health_Service
+{
+    meta:
+    description = "NetLock Health Service"
+    Author = "Nico Mak <nico.mak@0x101-cyber-security.de>"
+    date = "15.07.2022"
+    
+    strings:
+        $a = { 30 78 31 30 31 20 43 79 62 65 72 20 53 65 63 75 72 69 74 79 } // 0x101 Cyber Security
+        $b = { 30 78 31 30 31 5F 4E 65 74 4C 6F 63 6B 5F 48 65 61 6C 74 68 5F 53 65 72 76 69 63 65 2E 48 65 6C 70 65 72 } // 0x101_NetLock_Health_Service.Helper
+        $c = { 57 61 74 63 68 65 73 20 74 68 65 20 4E 65 74 4C 6F 63 6B 20 63 6F 6D 70 6F 6E 65 6E 74 73 } // Watches the NetLock components
+        $d = { 49 6E 73 74 61 6C 6C 65 72 5F 54 72 75 73 74 5F 55 52 4C } // Installer_Trust_URL
+    
+    condition:
+        $a and $b and $c and $d
+}

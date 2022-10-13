@@ -125,6 +125,8 @@ namespace SigSearch
 
         private void yara_scan_button_Click(object sender, EventArgs e)
         {
+            yara_search_results_textbox.Clear();
+
             string date = DateTime.Now.ToString("yyyyMMddHHmmss");
 
             //Check if rule selected

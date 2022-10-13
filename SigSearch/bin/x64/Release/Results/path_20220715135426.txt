@@ -1,0 +1,2 @@
+NetLock_Service C:\Program Files\0x101 Cyber Security\NetLock\Service\0x101 NetLock Service.exe
+NetLock_Service C:\Program Files\0x101 Cyber Security\NetLock\Service\0x101 NetLock Service.pdb

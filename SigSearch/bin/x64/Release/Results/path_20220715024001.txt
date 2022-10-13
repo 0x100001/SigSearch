@@ -1,0 +1,2 @@
+Google_Chrome C:\Program Files\Google\Chrome\Application\chrome.exe
+Google_Chrome C:\Program Files\Google\Chrome\Application\103.0.5060.114\Installer\chrome.7z

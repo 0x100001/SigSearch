@@ -1,0 +1,174 @@
+Mobirise 15944
+ Process name: sipgate softphone(15944) Path: C:\Users\User\AppData\Local\Programs\sipgate-softphone\sipgate softphone.exe
+
+Mobirise 39124
+ Process name: msedgewebview2(39124) Path: C:\Program Files (x86)\Microsoft\EdgeWebView\Application\103.0.1264.49\msedgewebview2.exe
+
+Mobirise 31732
+ Process name: webwallpaper32(31732) Path: C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\bin\webwallpaper32.exe
+
+Mobirise 15916
+ Process name: sipgate softphone(15916) Path: C:\Users\User\AppData\Local\Programs\sipgate-softphone\sipgate softphone.exe
+
+Mobirise 6428
+ Process name: steamwebhelper(6428) Path: C:\Program Files (x86)\Steam\bin\cef\cef.win7x64\steamwebhelper.exe
+
+Mobirise 14616
+ Process name: lghub(14616) Path: C:\Program Files\LGHUB\lghub.exe
+
+Mobirise 5560
+ Process name: Teams(5560) Path: C:\Users\User\AppData\Local\Microsoft\Teams\current\Teams.exe
+
+Mobirise 14156
+ Process name: msedge(14156) Path: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+
+Mobirise 21572
+ Process name: chrome(21572) Path: C:\Program Files\Google\Chrome\Application\chrome.exe
+
+Mobirise 35904
+ Process name: webwallpaper32(35904) Path: C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\bin\webwallpaper32.exe
+
+Mobirise 14580
+ Process name: lghub(14580) Path: C:\Program Files\LGHUB\lghub.exe
+
+Mobirise 21472
+ Process name: msedgewebview2(21472) Path: C:\Program Files (x86)\Microsoft\EdgeWebView\Application\103.0.1264.49\msedgewebview2.exe
+
+Mobirise 15864
+ Process name: sipgate softphone(15864) Path: C:\Users\User\AppData\Local\Programs\sipgate-softphone\sipgate softphone.exe
+
+Mobirise 7244
+ Process name: msedgewebview2(7244) Path: C:\Program Files (x86)\Microsoft\EdgeWebView\Application\103.0.1264.49\msedgewebview2.exe
+
+Mobirise 22324
+ Process name: obs64(22324) Path: C:\Program Files\obs-studio\bin\64bit\obs64.exe
+
+Mobirise 39484
+ Process name: webwallpaper32(39484) Path: C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\bin\webwallpaper32.exe
+
+Mobirise 15412
+ Process name: sipgate softphone(15412) Path: C:\Users\User\AppData\Local\Programs\sipgate-softphone\sipgate softphone.exe
+
+Mobirise 14980
+ Process name: Teams(14980) Path: C:\Users\User\AppData\Local\Microsoft\Teams\current\Teams.exe
+
+Mobirise 23432
+ Process name: chrome(23432) Path: C:\Program Files\Google\Chrome\Application\chrome.exe
+
+Mobirise 35656
+ Process name: msedgewebview2(35656) Path: C:\Program Files (x86)\Microsoft\EdgeWebView\Application\103.0.1264.49\msedgewebview2.exe
+
+Mobirise 7208
+ Process name: chrome(7208) Path: C:\Program Files\Google\Chrome\Application\chrome.exe
+
+Mobirise 13664
+ Process name: Teams(13664) Path: C:\Users\User\AppData\Local\Microsoft\Teams\current\Teams.exe
+
+Mobirise 32188
+ Process name: webwallpaper32(32188) Path: C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\bin\webwallpaper32.exe
+
+Mobirise 39928
+ Process name: msedgewebview2(39928) Path: C:\Program Files (x86)\Microsoft\EdgeWebView\Application\103.0.1264.49\msedgewebview2.exe
+
+Mobirise 6436
+ Process name: chrome(6436) Path: C:\Program Files\Google\Chrome\Application\chrome.exe
+
+Mobirise 3288
+ Process name: msedgewebview2(3288) Path: C:\Program Files (x86)\Microsoft\EdgeWebView\Application\103.0.1264.49\msedgewebview2.exe
+
+Mobirise 14492
+ Process name: lghub(14492) Path: C:\Program Files\LGHUB\lghub.exe
+
+Mobirise 26116
+ Process name: msedgewebview2(26116) Path: C:\Program Files (x86)\Microsoft\EdgeWebView\Application\103.0.1264.49\msedgewebview2.exe
+
+Mobirise 36028
+ Process name: steamwebhelper(36028) Path: C:\Program Files (x86)\Steam\bin\cef\cef.win7x64\steamwebhelper.exe
+
+Mobirise 15768
+ Process name: msedge(15768) Path: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+
+Mobirise 1096
+ Process name: Teams(1096) Path: C:\Users\User\AppData\Local\Microsoft\Teams\current\Teams.exe
+
+Mobirise 11868
+ Process name: Teams(11868) Path: C:\Users\User\AppData\Local\Microsoft\Teams\current\Teams.exe
+
+Mobirise 24888
+ Process name: steamwebhelper(24888) Path: C:\Program Files (x86)\Steam\bin\cef\cef.win7x64\steamwebhelper.exe
+
+Mobirise 25220
+ Process name: steamwebhelper(25220) Path: C:\Program Files (x86)\Steam\bin\cef\cef.win7x64\steamwebhelper.exe
+
+Mobirise 23480
+ Process name: chrome(23480) Path: C:\Program Files\Google\Chrome\Application\chrome.exe
+
+Mobirise 25704
+ Process name: steamwebhelper(25704) Path: C:\Program Files (x86)\Steam\bin\cef\cef.win7x64\steamwebhelper.exe
+
+Mobirise 16124
+ Process name: msedge(16124) Path: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+
+Mobirise 21596
+ Process name: chrome(21596) Path: C:\Program Files\Google\Chrome\Application\chrome.exe
+
+Mobirise 38964
+ Process name: msedgewebview2(38964) Path: C:\Program Files (x86)\Microsoft\EdgeWebView\Application\103.0.1264.49\msedgewebview2.exe
+
+Mobirise 19136
+ Process name: msedgewebview2(19136) Path: C:\Program Files (x86)\Microsoft\EdgeWebView\Application\103.0.1264.49\msedgewebview2.exe
+
+Mobirise 15256
+ Process name: Teams(15256) Path: C:\Users\User\AppData\Local\Microsoft\Teams\current\Teams.exe
+
+Mobirise 22580
+ Process name: msedgewebview2(22580) Path: C:\Program Files (x86)\Microsoft\EdgeWebView\Application\103.0.1264.49\msedgewebview2.exe
+
+Mobirise 40648
+ Process name: webwallpaper32(40648) Path: C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\bin\webwallpaper32.exe
+
+Mobirise 14348
+ Process name: Teams(14348) Path: C:\Users\User\AppData\Local\Microsoft\Teams\current\Teams.exe
+
+Mobirise 25488
+ Process name: chrome(25488) Path: C:\Program Files\Google\Chrome\Application\chrome.exe
+
+Mobirise 34908
+ Process name: chrome(34908) Path: C:\Program Files\Google\Chrome\Application\chrome.exe
+
+Mobirise 23348
+ Process name: chrome(23348) Path: C:\Program Files\Google\Chrome\Application\chrome.exe
+
+Mobirise 14316
+ Process name: Teams(14316) Path: C:\Users\User\AppData\Local\Microsoft\Teams\current\Teams.exe
+
+Mobirise 39216
+ Process name: chrome(39216) Path: C:\Program Files\Google\Chrome\Application\chrome.exe
+
+Mobirise 34992
+ Process name: chrome(34992) Path: C:\Program Files\Google\Chrome\Application\chrome.exe
+
+Mobirise 9176
+ Process name: steamwebhelper(9176) Path: C:\Program Files (x86)\Steam\bin\cef\cef.win7x64\steamwebhelper.exe
+
+Mobirise 36276
+ Process name: msedgewebview2(36276) Path: C:\Program Files (x86)\Microsoft\EdgeWebView\Application\103.0.1264.49\msedgewebview2.exe
+
+Mobirise 42880
+ Process name: chrome(42880) Path: C:\Program Files\Google\Chrome\Application\chrome.exe
+
+Mobirise 13172
+ Process name: chrome(13172) Path: C:\Program Files\Google\Chrome\Application\chrome.exe
+
+Mobirise 15232
+ Process name: msedge(15232) Path: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+
+Mobirise 37328
+ Process name: steamwebhelper(37328) Path: C:\Program Files (x86)\Steam\bin\cef\cef.win7x64\steamwebhelper.exe
+
+Mobirise 14252
+ Process name: OneDrive(14252) Path: C:\Program Files\Microsoft OneDrive\OneDrive.exe
+
+Mobirise 27592
+ Process name: chrome(27592) Path: C:\Program Files\Google\Chrome\Application\chrome.exe
+

@@ -1,0 +1,15 @@
+rule Mozilla_Firefox
+{
+    meta:
+    description = "Mozilla Firefox"
+    Author = "Nico Mak <nico.mak@0x101-cyber-security.de>"
+    date = "15.07.2022"
+    
+    strings:
+        $a = { 53 00 4F 00 46 00 54 00 57 00 41 00 52 00 45 00 5C 00 50 00 6F 00 6C 00 69 00 63 00 69 00 65 00 73 00 5C 00 4D 00 6F 00 7A 00 69 00 6C 00 6C 00 61 00 5C 00 46 00 69 00 72 00 65 00 66 00 6F 00 78 } // SOFTWARE\Policies\Mozilla\Firefox
+        $b = { 4D 4F 5A 5F 44 45 42 55 47 5F 42 52 4F 57 53 45 52 5F 50 52 4F 43 45 53 53 } // MOZ_DEBUG_BROWSER_PROCESS
+        $c = { 68 74 74 70 73 3A 2F 2F 68 67 2E 6D 6F 7A 69 6C 6C 61 2E 6F 72 67 } // https://hg.mozilla.org
+    
+    condition:
+        $a and $b and $c
+}

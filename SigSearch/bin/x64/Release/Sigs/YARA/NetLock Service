@@ -1,0 +1,16 @@
+rule NetLock_Service
+{
+    meta:
+    description = "NetLock Service"
+    Author = "Nico Mak <nico.mak@0x101-cyber-security.de>"
+    date = "15.07.2022"
+    
+    strings:
+        $a = { 30 78 31 30 31 20 43 79 62 65 72 20 53 65 63 75 72 69 74 79 } // 0x101 Cyber Security
+        $b = { 54 41 4D 50 45 52 5F 50 52 4F 54 45 43 54 49 4F 4E 5F 42 4C 4F 43 4B 45 44 5F 43 48 41 4E 47 45 53 } // TAMPER_PROTECTION_BLOCKED_CHANGES
+        $c = { 4E 65 74 46 77 54 79 70 65 4C 69 62 } // NetFwTypeLib
+        $d = { 6C 6F 67 5F 64 65 74 61 69 6C 73 5F 64 65 5F 73 74 72 69 6E 67 } // log_details_de_string
+    
+    condition:
+        $a and $b and $c and $d
+}

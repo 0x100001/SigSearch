@@ -1,0 +1,16 @@
+rule NetLock_Uninstaller
+{
+    meta:
+    description = "NetLock Uninstaller"
+    Author = "Nico Mak <nico.mak@0x101-cyber-security.de>"
+    date = "15.07.2022"
+    
+    strings:
+        $a = { 30 78 31 30 31 20 43 79 62 65 72 20 53 65 63 75 72 69 74 79 } // 0x101 Cyber Security
+        $b = { 53 00 74 00 6F 00 70 00 20 00 4E 00 65 00 74 00 4C 00 6F 00 63 00 6B 00 20 00 73 00 65 00 72 00 76 00 69 00 63 00 65 } // Stop NetLock service
+        $c = { 55 6E 69 6E 73 74 61 6C 6C 73 20 74 68 65 20 4E 65 74 4C 6F 63 6B 20 63 6F 6D 70 6F 6E 65 6E 74 73 } // Uninstalls the NetLock components
+        $d = { 4D 00 6F 00 64 00 65 00 3A 00 20 00 46 00 69 00 78 } // Mode: Fix
+    
+    condition:
+        $a and $b and $c and $d
+}

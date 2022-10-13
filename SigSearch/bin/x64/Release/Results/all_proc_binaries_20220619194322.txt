@@ -1,0 +1,60 @@
+Error: Zugriff verweigert Process name: Memory Compression(2968)
+
+Error: Zugriff verweigert Process name: NisSrv(8980)
+
+Error: Zugriff verweigert Process name: MsMpEng(4656)
+
+Error: Zugriff verweigert Process name: smss(772)
+
+Error: Zugriff verweigert Process name: services(1200)
+
+Error: Zugriff verweigert Process name: csrss(1120)
+
+Error: Zugriff verweigert Process name: wininit(1112)
+
+Error: Zugriff verweigert Process name: Registry(220)
+
+Error: Zugriff verweigert Process name: SecurityHealthService(13560)
+
+Error: Zugriff verweigert Process name: SgrmBroker(6228)
+
+Error: Zugriff verweigert Process name: svchost(21276)
+
+Error: Zugriff verweigert Process name: csrss(1012)
+
+Error: Zugriff verweigert Process name: svchost(19364)
+
+Error: Die Prozessmodule konnten nicht aufgelistet werden. Process name: System(4)
+
+Error: Die Prozessmodule konnten nicht aufgelistet werden. Process name: Idle(0)
+
+Error: Zugriff verweigert Process name: Memory Compression(2968)
+
+Error: Zugriff verweigert Process name: NisSrv(8980)
+
+Error: Zugriff verweigert Process name: MsMpEng(4656)
+
+Error: Zugriff verweigert Process name: smss(772)
+
+Error: Zugriff verweigert Process name: services(1200)
+
+Error: Zugriff verweigert Process name: csrss(1120)
+
+Error: Zugriff verweigert Process name: wininit(1112)
+
+Error: Zugriff verweigert Process name: Registry(220)
+
+Error: Zugriff verweigert Process name: SecurityHealthService(13560)
+
+Error: Zugriff verweigert Process name: SgrmBroker(6228)
+
+Error: Zugriff verweigert Process name: svchost(21276)
+
+Error: Zugriff verweigert Process name: csrss(1012)
+
+Error: Zugriff verweigert Process name: svchost(19364)
+
+Error: Die Prozessmodule konnten nicht aufgelistet werden. Process name: System(4)
+
+Error: Die Prozessmodule konnten nicht aufgelistet werden. Process name: Idle(0)
+

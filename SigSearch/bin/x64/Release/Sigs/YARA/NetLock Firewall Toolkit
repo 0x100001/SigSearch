@@ -1,0 +1,16 @@
+rule NetLock_Firewall_Toolkit
+{
+    meta:
+    description = "NetLock Firewall Toolkit"
+    Author = "Nico Mak <nico.mak@0x101-cyber-security.de>"
+    date = "15.07.2022"
+    
+    strings:
+        $a = { 30 78 31 30 31 20 43 79 62 65 72 20 53 65 63 75 72 69 74 79 } // 0x101 Cyber Security
+        $b = { 65 78 70 6F 72 74 5F 69 6E 62 6F 75 6E 64 5F 62 75 74 74 6F 6E } // export_inbound_button
+        $c = { 70 72 6F 63 6D 6F 6E 5F 72 75 6E 6E 69 6E 67 } // procmon_running
+        $d = { 46 00 69 00 72 00 65 00 77 00 61 00 6C 00 6C 00 20 00 52 00 75 00 6C 00 65 00 20 00 43 00 72 00 65 00 61 00 74 00 6F 00 72 00 20 00 54 00 6F 00 6F 00 6C 00 6B 00 69 00 74 } // Firewall Rule Creator Toolkit
+    
+    condition:
+        $a and $b and $c and $d
+}

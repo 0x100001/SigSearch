@@ -1,0 +1,16 @@
+rule Google_Chrome
+{
+    meta:
+    description = "Google Chrome (Static)"
+    Author = "Nico Mak <nico.mak@0x101-cyber-security.de>"
+    date = "15.07.2022"
+    
+    strings:
+        $a = { 47 00 6F 00 6F 00 67 00 6C 00 65 00 20 00 43 00 68 00 72 00 6F 00 6D 00 65 } // Google Chrome
+        $b = { 53 00 4F 00 46 00 54 00 57 00 41 00 52 00 45 00 5C 00 50 00 6F 00 6C 00 69 00 63 00 69 00 65 00 73 00 5C 00 47 00 6F 00 6F 00 67 00 6C 00 65 00 5C 00 43 00 68 00 72 00 6F 00 6D 00 65 } // SOFTWARE\Policies\Google\Chrome
+        $c = { 63 68 72 6F 6D 65 6F 73 } // chromeos
+        $d = { 43 00 68 00 72 00 6F 00 6D 00 65 00 20 00 53 00 61 00 6E 00 64 00 62 00 6F 00 78 } // Chrome Sandbox
+    
+    condition:
+        $a and $b and $c and $d
+}

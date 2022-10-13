@@ -1,0 +1,15 @@
+C:\Users\User\OneDrive - 0x101 Cyber Security\Projekte\SigSearch\SigSearch\bin\x64\Release\SigSearch.exe.config
+C:\Users\User\OneDrive - 0x101 Cyber Security\Projekte\SigSearch\SigSearch\bin\x64\Release\SigSearch.exe
+C:\Users\User\OneDrive - 0x101 Cyber Security\Projekte\SigSearch\SigSearch\bin\x64\Release\SigSearch.pdb
+C:\Users\User\OneDrive - 0x101 Cyber Security\Projekte\SigSearch\SigSearch\bin\x64\Release\FastColoredTextBox.dll
+C:\Users\User\OneDrive - 0x101 Cyber Security\Projekte\SigSearch\SigSearch\bin\x64\Release\FastColoredTextBox.xml
+C:\Users\User\OneDrive - 0x101 Cyber Security\Projekte\SigSearch\SigSearch\obj\x64\Release\SigSearch.csproj.AssemblyReference.cache
+C:\Users\User\OneDrive - 0x101 Cyber Security\Projekte\SigSearch\SigSearch\obj\x64\Release\SigSearch.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\OneDrive - 0x101 Cyber Security\Projekte\SigSearch\SigSearch\obj\x64\Release\SigSearch.YARA.Add_New_Rule.Add_New_Rule.resources
+C:\Users\User\OneDrive - 0x101 Cyber Security\Projekte\SigSearch\SigSearch\obj\x64\Release\SigSearch.Main_Form.resources
+C:\Users\User\OneDrive - 0x101 Cyber Security\Projekte\SigSearch\SigSearch\obj\x64\Release\SigSearch.Properties.Resources.resources
+C:\Users\User\OneDrive - 0x101 Cyber Security\Projekte\SigSearch\SigSearch\obj\x64\Release\SigSearch.csproj.GenerateResource.cache
+C:\Users\User\OneDrive - 0x101 Cyber Security\Projekte\SigSearch\SigSearch\obj\x64\Release\SigSearch.csproj.CoreCompileInputs.cache
+C:\Users\User\OneDrive - 0x101 Cyber Security\Projekte\SigSearch\SigSearch\obj\x64\Release\SigSearch.csproj.CopyComplete
+C:\Users\User\OneDrive - 0x101 Cyber Security\Projekte\SigSearch\SigSearch\obj\x64\Release\SigSearch.exe
+C:\Users\User\OneDrive - 0x101 Cyber Security\Projekte\SigSearch\SigSearch\obj\x64\Release\SigSearch.pdb

@@ -1,0 +1,101 @@
+rule NetLock_Management_Console
+{
+    meta:
+    description = "NetLock Management Console"
+    Author = "Nico Mak <nico.mak@0x101-cyber-security.de>"
+    date = "15.07.2022"
+    
+    strings:
+        $a = { 30 78 31 30 31 20 43 79 62 65 72 20 53 65 63 75 72 69 74 79 } // 0x101 Cyber Security
+        $b = { 4D 61 6E 61 67 65 73 20 79 6F 75 72 20 63 6C 69 65 6E 74 73 20 77 69 74 68 20 65 61 73 65 } // Manages your clients with ease
+        $c = { 30 78 31 30 31 5F 4E 65 74 4C 6F 63 6B 5F 5F 5F 4D 61 6E 61 67 65 6D 65 6E 74 5F 43 6F 6E 73 6F 6C 65 2E 50 72 6F 70 65 72 74 69 65 73 } // 0x101_NetLock___Management_Console.Properties
+        $d = { 54 65 6E 61 6E 74 5F 4D 61 6E 61 67 65 72 } // Tenant_Manager
+    
+    condition:
+        $a and $b and $c and $d
+}
+    
+rule NetLock_Service
+{
+    meta:
+    description = "NetLock Service"
+    Author = "Nico Mak <nico.mak@0x101-cyber-security.de>"
+    date = "15.07.2022"
+    
+    strings:
+        $a = { 30 78 31 30 31 20 43 79 62 65 72 20 53 65 63 75 72 69 74 79 } // 0x101 Cyber Security
+        $b = { 54 41 4D 50 45 52 5F 50 52 4F 54 45 43 54 49 4F 4E 5F 42 4C 4F 43 4B 45 44 5F 43 48 41 4E 47 45 53 } // TAMPER_PROTECTION_BLOCKED_CHANGES
+        $c = { 4E 65 74 46 77 54 79 70 65 4C 69 62 } // NetFwTypeLib
+        $d = { 6C 6F 67 5F 64 65 74 61 69 6C 73 5F 64 65 5F 73 74 72 69 6E 67 } // log_details_de_string
+    
+    condition:
+        $a and $b and $c and $d
+}
+    
+rule NetLock_Health_Service
+{
+    meta:
+    description = "NetLock Health Service"
+    Author = "Nico Mak <nico.mak@0x101-cyber-security.de>"
+    date = "15.07.2022"
+    
+    strings:
+        $a = { 30 78 31 30 31 20 43 79 62 65 72 20 53 65 63 75 72 69 74 79 } // 0x101 Cyber Security
+        $b = { 30 78 31 30 31 5F 4E 65 74 4C 6F 63 6B 5F 48 65 61 6C 74 68 5F 53 65 72 76 69 63 65 2E 48 65 6C 70 65 72 } // 0x101_NetLock_Health_Service.Helper
+        $c = { 57 61 74 63 68 65 73 20 74 68 65 20 4E 65 74 4C 6F 63 6B 20 63 6F 6D 70 6F 6E 65 6E 74 73 } // Watches the NetLock components
+        $d = { 49 6E 73 74 61 6C 6C 65 72 5F 54 72 75 73 74 5F 55 52 4C } // Installer_Trust_URL
+    
+    condition:
+        $a and $b and $c and $d
+}
+    
+rule NetLock_Installer
+{
+    meta:
+    description = "NetLock Installer"
+    Author = "Nico Mak <nico.mak@0x101-cyber-security.de>"
+    date = "15.07.2022"
+    
+    strings:
+        $a = { 30 78 31 30 31 20 43 79 62 65 72 20 53 65 63 75 72 69 74 79 } // 0x101 Cyber Security
+        $b = { 55 6E 69 6E 73 74 61 6C 6C 65 72 5F 55 52 4C } // Uninstaller_URL
+        $c = { 4D 4D 43 5F 50 61 63 6B 61 67 65 5F 54 72 75 73 74 5F 55 52 4C } // MMC_Package_Trust_URL
+        $d = { 49 6E 73 74 61 6C 6C 73 20 74 68 65 20 4E 65 74 4C 6F 63 6B 20 63 6F 6D 70 6F 6E 65 6E 74 73 } // Installs the NetLock components
+    
+    condition:
+        $a and $b and $c and $d
+}
+    
+rule NetLock_Uninstaller
+{
+    meta:
+    description = "NetLock Uninstaller"
+    Author = "Nico Mak <nico.mak@0x101-cyber-security.de>"
+    date = "15.07.2022"
+    
+    strings:
+        $a = { 30 78 31 30 31 20 43 79 62 65 72 20 53 65 63 75 72 69 74 79 } // 0x101 Cyber Security
+        $b = { 53 00 74 00 6F 00 70 00 20 00 4E 00 65 00 74 00 4C 00 6F 00 63 00 6B 00 20 00 73 00 65 00 72 00 76 00 69 00 63 00 65 } // Stop NetLock service
+        $c = { 55 6E 69 6E 73 74 61 6C 6C 73 20 74 68 65 20 4E 65 74 4C 6F 63 6B 20 63 6F 6D 70 6F 6E 65 6E 74 73 } // Uninstalls the NetLock components
+        $d = { 4D 00 6F 00 64 00 65 00 3A 00 20 00 46 00 69 00 78 } // Mode: Fix
+    
+    condition:
+        $a and $b and $c and $d
+}
+    
+rule NetLock_Firewall_Toolkit
+{
+    meta:
+    description = "NetLock Firewall Toolkit"
+    Author = "Nico Mak <nico.mak@0x101-cyber-security.de>"
+    date = "15.07.2022"
+    
+    strings:
+        $a = { 30 78 31 30 31 20 43 79 62 65 72 20 53 65 63 75 72 69 74 79 } // 0x101 Cyber Security
+        $b = { 65 78 70 6F 72 74 5F 69 6E 62 6F 75 6E 64 5F 62 75 74 74 6F 6E } // export_inbound_button
+        $c = { 70 72 6F 63 6D 6F 6E 5F 72 75 6E 6E 69 6E 67 } // procmon_running
+        $d = { 46 00 69 00 72 00 65 00 77 00 61 00 6C 00 6C 00 20 00 52 00 75 00 6C 00 65 00 20 00 43 00 72 00 65 00 61 00 74 00 6F 00 72 00 20 00 54 00 6F 00 6F 00 6C 00 6B 00 69 00 74 } // Firewall Rule Creator Toolkit
+    
+    condition:
+        $a and $b and $c and $d
+}

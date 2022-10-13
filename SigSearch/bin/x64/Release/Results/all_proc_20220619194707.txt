@@ -1,0 +1,411 @@
+Mozilla_Firefox 12896
+ Process name: TextInputHost(12896) Path: C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\TextInputHost.exe
+
+Mozilla_Firefox 15508
+ Process name: Teams(15508) Path: C:\Users\User\AppData\Local\Microsoft\Teams\current\Teams.exe
+
+Mozilla_Firefox 12056
+ Process name: SettingSyncHost(12056) Path: C:\Windows\system32\SettingSyncHost.exe
+
+Mozilla_Firefox 15072
+ Process name: Spotify(15072) Path: C:\Program Files\WindowsApps\SpotifyAB.SpotifyMusic_1.187.612.0_x86__zpdnekdrzrea0\Spotify.exe
+
+Mozilla_Firefox 18524
+ Process name: msedge(18524) Path: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+
+Mozilla_Firefox 18516
+ Process name: msedge(18516) Path: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+
+Mozilla_Firefox 4292
+ Process name: svchost(4292) Path: C:\Windows\System32\svchost.exe
+
+Mozilla_Firefox 19988
+ Process name: firefox(19988) Path: C:\Program Files\Mozilla Firefox\firefox.exe
+
+Mozilla_Firefox 12472
+ Process name: steamwebhelper(12472) Path: C:\Program Files (x86)\Steam\bin\cef\cef.win7x64\steamwebhelper.exe
+
+Mozilla_Firefox 8592
+ Process name: SearchApp(8592) Path: C:\Windows\SystemApps\Microsoft.Windows.Search_cw5n1h2txyewy\SearchApp.exe
+
+Mozilla_Firefox 14192
+ Process name: Calculator(14192) Path: C:\Program Files\WindowsApps\Microsoft.WindowsCalculator_10.2103.8.0_x64__8wekyb3d8bbwe\Calculator.exe
+
+Mozilla_Firefox 15484
+ Process name: chrome(15484) Path: C:\Program Files\Google\Chrome\Application\chrome.exe
+
+Mozilla_Firefox 9016
+ Process name: RuntimeBroker(9016) Path: C:\Windows\System32\RuntimeBroker.exe
+
+Mozilla_Firefox 13748
+ Process name: OUTLOOK(13748) Path: C:\Program Files (x86)\Microsoft Office\root\Office16\OUTLOOK.EXE
+
+Mozilla_Firefox 9000
+ Process name: msedgewebview2(9000) Path: C:\Program Files (x86)\Microsoft\EdgeWebView\Application\102.0.1245.44\msedgewebview2.exe
+
+Mozilla_Firefox 13920
+ Process name: steamwebhelper(13920) Path: C:\Program Files (x86)\Steam\bin\cef\cef.win7x64\steamwebhelper.exe
+
+Mozilla_Firefox 11152
+ Process name: RuntimeBroker(11152) Path: C:\Windows\System32\RuntimeBroker.exe
+
+Mozilla_Firefox 22616
+ Process name: chrome(22616) Path: C:\Program Files\Google\Chrome\Application\chrome.exe
+
+Mozilla_Firefox 12008
+ Process name: RuntimeBroker(12008) Path: C:\Windows\System32\RuntimeBroker.exe
+
+Mozilla_Firefox 18020
+ Process name: Teams(18020) Path: C:\Users\User\AppData\Local\Microsoft\Teams\current\Teams.exe
+
+Mozilla_Firefox 12412
+ Process name: chrome(12412) Path: C:\Program Files\Google\Chrome\Application\chrome.exe
+
+Mozilla_Firefox 3356
+ Process name: NVDisplay.Container(3356) Path: C:\Windows\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_1c83a5d7cffd7bff\Display.NvContainer\NVDisplay.Container.exe
+
+Mozilla_Firefox 15420
+ Process name: lghub(15420) Path: C:\Program Files\LGHUB\lghub.exe
+
+Mozilla_Firefox 4212
+ Process name: WmiPrvSE(4212) Path: C:\Windows\system32\wbem\wmiprvse.exe
+
+Mozilla_Firefox 4640
+ Process name: RtkAudUService64(4640) Path: C:\Windows\System32\RtkAudUService64.exe
+
+Mozilla_Firefox 4208
+ Process name: StartMenuExperienceHost(4208) Path: C:\Windows\SystemApps\Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy\StartMenuExperienceHost.exe
+
+Mozilla_Firefox 18860
+ Process name: RuntimeBroker(18860) Path: C:\Windows\System32\RuntimeBroker.exe
+
+Mozilla_Firefox 4552
+ Process name: VirtualBox(4552) Path: C:\Program Files\Oracle\VirtualBox\VirtualBox.exe
+
+Mozilla_Firefox 4628
+ Process name: 0x101 NetLock Service(4628) Path: C:\Program Files\0x101 Cyber Security\NetLock\Service\0x101 NetLock Service.exe
+
+Mozilla_Firefox 11516
+ Process name: msedgewebview2(11516) Path: C:\Program Files (x86)\Microsoft\EdgeWebView\Application\102.0.1245.44\msedgewebview2.exe
+
+Mozilla_Firefox 1600
+ Process name: winlogon(1600) Path: C:\Windows\system32\winlogon.exe
+
+Mozilla_Firefox 17028
+ Process name: webwallpaper32(17028) Path: C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\bin\webwallpaper32.exe
+
+Mozilla_Firefox 5044
+ Process name: firefox(5044) Path: C:\Program Files\Mozilla Firefox\firefox.exe
+
+Mozilla_Firefox 21420
+ Process name: webwallpaper32(21420) Path: C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\bin\webwallpaper32.exe
+
+Mozilla_Firefox 14700
+ Process name: firefox(14700) Path: C:\Program Files\Mozilla Firefox\firefox.exe
+
+Mozilla_Firefox 14088
+ Process name: openvpn-gui(14088) Path: C:\Program Files\OpenVPN\bin\openvpn-gui.exe
+
+Mozilla_Firefox 17452
+ Process name: chrome(17452) Path: C:\Program Files\Google\Chrome\Application\chrome.exe
+
+Mozilla_Firefox 20500
+ Process name: webwallpaper32(20500) Path: C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\bin\webwallpaper32.exe
+
+Mozilla_Firefox 18824
+ Process name: VBoxSVC(18824) Path: C:\Program Files\Oracle\VirtualBox\VBoxSVC.exe
+
+Mozilla_Firefox 6752
+ Process name: explorer(6752) Path: C:\Windows\Explorer.EXE
+
+Mozilla_Firefox 5884
+ Process name: chrome(5884) Path: C:\Program Files\Google\Chrome\Application\chrome.exe
+
+Mozilla_Firefox 19956
+ Process name: msedge(19956) Path: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+
+Mozilla_Firefox 10620
+ Process name: steamwebhelper(10620) Path: C:\Program Files (x86)\Steam\bin\cef\cef.win7x64\steamwebhelper.exe
+
+Mozilla_Firefox 6124
+ Process name: SearchApp(6124) Path: C:\Windows\SystemApps\Microsoft.Windows.Search_cw5n1h2txyewy\SearchApp.exe
+
+Mozilla_Firefox 20900
+ Process name: conhost(20900) Path: C:\Windows\system32\conhost.exe
+
+Mozilla_Firefox 12340
+ Process name: chrome(12340) Path: C:\Program Files\Google\Chrome\Application\chrome.exe
+
+Mozilla_Firefox 3288
+ Process name: svchost(3288) Path: C:\Windows\system32\svchost.exe
+
+Mozilla_Firefox 14924
+ Process name: Teams(14924) Path: C:\Users\User\AppData\Local\Microsoft\Teams\current\Teams.exe
+
+Mozilla_Firefox 12328
+ Process name: chrome(12328) Path: C:\Program Files\Google\Chrome\Application\chrome.exe
+
+Mozilla_Firefox 16624
+ Process name: Teams(16624) Path: C:\Users\User\AppData\Local\Microsoft\Teams\current\Teams.exe
+
+Mozilla_Firefox 17484
+ Process name: msedge(17484) Path: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+
+Mozilla_Firefox 6208
+ Process name: svchost(6208) Path: C:\Windows\system32\svchost.exe
+
+Mozilla_Firefox 6276
+ Process name: svchost(6276) Path: C:\Windows\system32\svchost.exe
+
+Mozilla_Firefox 16056
+ Process name: webwallpaper32(16056) Path: C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\bin\webwallpaper32.exe
+
+Mozilla_Firefox 10144
+ Process name: steamwebhelper(10144) Path: C:\Program Files (x86)\Steam\bin\cef\cef.win7x64\steamwebhelper.exe
+
+Mozilla_Firefox 15744
+ Process name: Spotify(15744) Path: C:\Program Files\WindowsApps\SpotifyAB.SpotifyMusic_1.187.612.0_x86__zpdnekdrzrea0\Spotify.exe
+
+Mozilla_Firefox 17308
+ Process name: sipgate softphone(17308) Path: C:\Users\User\AppData\Local\Programs\sipgate-softphone\sipgate softphone.exe
+
+Mozilla_Firefox 12724
+ Process name: chrome(12724) Path: C:\Program Files\Google\Chrome\Application\chrome.exe
+
+Mozilla_Firefox 15304
+ Process name: Teams(15304) Path: C:\Users\User\AppData\Local\Microsoft\Teams\current\Teams.exe
+
+Mozilla_Firefox 19608
+ Process name: MusNotifyIcon(19608) Path: C:\Windows\system32\MusNotifyIcon.exe
+
+Mozilla_Firefox 10668
+ Process name: steamwebhelper(10668) Path: C:\Program Files (x86)\Steam\bin\cef\cef.win7x64\steamwebhelper.exe
+
+Mozilla_Firefox 18952
+ Process name: SystemSettingsBroker(18952) Path: C:\Windows\System32\SystemSettingsBroker.exe
+
+Mozilla_Firefox 6684
+ Process name: chrome(6684) Path: C:\Program Files\Google\Chrome\Application\chrome.exe
+
+Mozilla_Firefox 2356
+ Process name: webwallpaper32(2356) Path: C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\bin\webwallpaper32.exe
+
+Mozilla_Firefox 6232
+ Process name: ctfmon(6232) Path: C:\Windows\system32\ctfmon.exe
+
+Mozilla_Firefox 17864
+ Process name: HxOutlook(17864) Path: C:\Program Files\WindowsApps\microsoft.windowscommunicationsapps_16005.14326.20970.0_x64__8wekyb3d8bbwe\HxOutlook.exe
+
+Mozilla_Firefox 16064
+ Process name: lghub(16064) Path: C:\Program Files\LGHUB\lghub.exe
+
+Mozilla_Firefox 7516
+ Process name: ShellExperienceHost(7516) Path: C:\Windows\SystemApps\ShellExperienceHost_cw5n1h2txyewy\ShellExperienceHost.exe
+
+Mozilla_Firefox 20832
+ Process name: SigSearch(20832) Path: C:\Users\User\OneDrive - 0x101 Cyber Security\Projekte\SigSearch\SigSearch\bin\x64\Release\SigSearch.exe
+
+Mozilla_Firefox 20676
+ Process name: steamwebhelper(20676) Path: C:\Program Files (x86)\Steam\bin\cef\cef.win7x64\steamwebhelper.exe
+
+Mozilla_Firefox 12596
+ Process name: chrome(12596) Path: C:\Program Files\Google\Chrome\Application\chrome.exe
+
+Mozilla_Firefox 9424
+ Process name: chrome(9424) Path: C:\Program Files\Google\Chrome\Application\chrome.exe
+
+Mozilla_Firefox 15260
+ Process name: Teams(15260) Path: C:\Users\User\AppData\Local\Microsoft\Teams\current\Teams.exe
+
+Mozilla_Firefox 11056
+ Process name: steam(11056) Path: C:\Program Files (x86)\Steam\Steam.exe
+
+Mozilla_Firefox 17840
+ Process name: msedge(17840) Path: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+
+Mozilla_Firefox 6456
+ Process name: wallpaper32(6456) Path: C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\wallpaper32.exe
+
+Mozilla_Firefox 18268
+ Process name: svchost(18268) Path: C:\Windows\system32\svchost.exe
+
+Mozilla_Firefox 9348
+ Process name: firefox(9348) Path: C:\Program Files\Mozilla Firefox\firefox.exe
+
+Mozilla_Firefox 16616
+ Process name: sipgate softphone(16616) Path: C:\Users\User\AppData\Local\Programs\sipgate-softphone\sipgate softphone.exe
+
+Mozilla_Firefox 6196
+ Process name: Video.UI(6196) Path: C:\Program Files\WindowsApps\Microsoft.ZuneVideo_10.22041.10091.0_x64__8wekyb3d8bbwe\Video.UI.exe
+
+Mozilla_Firefox 13948
+ Process name: RtkAudUService64(13948) Path: C:\Windows\System32\RtkAudUService64.exe
+
+Mozilla_Firefox 14664
+ Process name: firefox(14664) Path: C:\Program Files\Mozilla Firefox\firefox.exe
+
+Mozilla_Firefox 19744
+ Process name: chrome(19744) Path: C:\Program Files\Google\Chrome\Application\chrome.exe
+
+Mozilla_Firefox 10064
+ Process name: YourPhone(10064) Path: C:\Program Files\WindowsApps\Microsoft.YourPhone_1.22042.168.0_x64__8wekyb3d8bbwe\YourPhone.exe
+
+Mozilla_Firefox 18236
+ Process name: msedge(18236) Path: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+
+Mozilla_Firefox 20400
+ Process name: firefox(20400) Path: C:\Program Files\Mozilla Firefox\firefox.exe
+
+Mozilla_Firefox 6176
+ Process name: sihost(6176) Path: C:\Windows\system32\sihost.exe
+
+Mozilla_Firefox 13064
+ Process name: dllhost(13064) Path: C:\Windows\system32\DllHost.exe
+
+Mozilla_Firefox 14784
+ Process name: lghub_agent(14784) Path: C:\Program Files\LGHUB\lghub_agent.exe
+
+Mozilla_Firefox 14352
+ Process name: Teams(14352) Path: C:\Users\User\AppData\Local\Microsoft\Teams\current\Teams.exe
+
+Mozilla_Firefox 20984
+ Process name: chrome(20984) Path: C:\Program Files\Google\Chrome\Application\chrome.exe
+
+Mozilla_Firefox 12620
+ Process name: lghub(12620) Path: C:\Program Files\LGHUB\lghub.exe
+
+Mozilla_Firefox 16860
+ Process name: unsecapp(16860) Path: C:\Windows\system32\wbem\unsecapp.exe
+
+Mozilla_Firefox 11316
+ Process name: msedgewebview2(11316) Path: C:\Program Files (x86)\Microsoft\EdgeWebView\Application\102.0.1245.44\msedgewebview2.exe
+
+Mozilla_Firefox 11348
+ Process name: RuntimeBroker(11348) Path: C:\Windows\System32\RuntimeBroker.exe
+
+Mozilla_Firefox 8296
+ Process name: RuntimeBroker(8296) Path: C:\Windows\System32\RuntimeBroker.exe
+
+Mozilla_Firefox 6568
+ Process name: taskhostw(6568) Path: C:\Windows\system32\taskhostw.exe
+
+Mozilla_Firefox 20144
+ Process name: ApplicationFrameHost(20144) Path: C:\Windows\system32\ApplicationFrameHost.exe
+
+Mozilla_Firefox 16048
+ Process name: svchost(16048) Path: C:\Windows\System32\svchost.exe
+
+Mozilla_Firefox 12564
+ Process name: Spotify(12564) Path: C:\Program Files\WindowsApps\SpotifyAB.SpotifyMusic_1.187.612.0_x86__zpdnekdrzrea0\Spotify.exe
+
+Mozilla_Firefox 3324
+ Process name: firefox(3324) Path: C:\Program Files\Mozilla Firefox\firefox.exe
+
+Mozilla_Firefox 7420
+ Process name: svchost(7420) Path: C:\Windows\system32\svchost.exe
+
+Mozilla_Firefox 17756
+ Process name: rundll32(17756) Path: C:\Windows\system32\rundll32.exe
+
+Mozilla_Firefox 4824
+ Process name: OfficeClickToRun(4824) Path: C:\Program Files\Common Files\Microsoft Shared\ClickToRun\OfficeClickToRun.exe
+
+Mozilla_Firefox 8260
+ Process name: VeraCrypt(8260) Path: C:\Program Files\VeraCrypt\VeraCrypt.exe
+
+Mozilla_Firefox 8688
+ Process name: Spotify(8688) Path: C:\Program Files\WindowsApps\SpotifyAB.SpotifyMusic_1.187.612.0_x86__zpdnekdrzrea0\Spotify.exe
+
+Mozilla_Firefox 17012
+ Process name: sipgate softphone(17012) Path: C:\Users\User\AppData\Local\Programs\sipgate-softphone\sipgate softphone.exe
+
+Mozilla_Firefox 15472
+ Process name: chrome(15472) Path: C:\Program Files\Google\Chrome\Application\chrome.exe
+
+Mozilla_Firefox 14712
+ Process name: notepad++(14712) Path: C:\Program Files\Notepad++\notepad++.exe
+
+Mozilla_Firefox 16004
+ Process name: Spotify(16004) Path: C:\Program Files\WindowsApps\SpotifyAB.SpotifyMusic_1.187.612.0_x86__zpdnekdrzrea0\Spotify.exe
+
+Mozilla_Firefox 7812
+ Process name: smartscreen(7812) Path: C:\Windows\System32\smartscreen.exe
+
+Mozilla_Firefox 1344
+ Process name: svchost(1344) Path: C:\Windows\system32\svchost.exe
+
+Mozilla_Firefox 17340
+ Process name: sipgate softphone(17340) Path: C:\Users\User\AppData\Local\Programs\sipgate-softphone\sipgate softphone.exe
+
+Mozilla_Firefox 13840
+ Process name: chrome(13840) Path: C:\Program Files\Google\Chrome\Application\chrome.exe
+
+Mozilla_Firefox 18580
+ Process name: msedge(18580) Path: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+
+Mozilla_Firefox 15664
+ Process name: msedgewebview2(15664) Path: C:\Program Files (x86)\Microsoft\EdgeWebView\Application\102.0.1245.44\msedgewebview2.exe
+
+Mozilla_Firefox 2200
+ Process name: firefox(2200) Path: C:\Program Files\Mozilla Firefox\firefox.exe
+
+Mozilla_Firefox 13512
+ Process name: SecurityHealthSystray(13512) Path: C:\Windows\System32\SecurityHealthSystray.exe
+
+Mozilla_Firefox 1764
+ Process name: dwm(1764) Path: C:\Windows\system32\dwm.exe
+
+Mozilla_Firefox 1332
+ Process name: dllhost(1332) Path: C:\Windows\system32\DllHost.exe
+
+Mozilla_Firefox 9840
+ Process name: RuntimeBroker(9840) Path: C:\Windows\System32\RuntimeBroker.exe
+
+Mozilla_Firefox 13828
+ Process name: OneDrive(13828) Path: C:\Program Files\Microsoft OneDrive\OneDrive.exe
+
+Mozilla_Firefox 15548
+ Process name: VBCSCompiler(15548) Path: C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Roslyn\VBCSCompiler.exe
+
+Mozilla_Firefox 11892
+ Process name: HxTsr(11892) Path: C:\Program Files\WindowsApps\microsoft.windowscommunicationsapps_16005.14326.20970.0_x64__8wekyb3d8bbwe\HxTsr.exe
+
+Mozilla_Firefox 15312
+ Process name: UserOOBEBroker(15312) Path: C:\Windows\System32\oobe\UserOOBEBroker.exe
+
+Mozilla_Firefox 19852
+ Process name: RuntimeBroker(19852) Path: C:\Windows\System32\RuntimeBroker.exe
+
+Mozilla_Firefox 22268
+ Process name: Microsoft.Photos(22268) Path: C:\Program Files\WindowsApps\Microsoft.Windows.Photos_2022.30060.3006.0_x64__8wekyb3d8bbwe\Microsoft.Photos.exe
+
+Mozilla_Firefox 14524
+ Process name: VirtualBoxVM(14524) Path: C:\Program Files\Oracle\VirtualBox\VirtualBoxVM.exe
+
+Mozilla_Firefox 6488
+ Process name: chrome(6488) Path: C:\Program Files\Google\Chrome\Application\chrome.exe
+
+Mozilla_Firefox 15536
+ Process name: Spotify(15536) Path: C:\Program Files\WindowsApps\SpotifyAB.SpotifyMusic_1.187.612.0_x86__zpdnekdrzrea0\Spotify.exe
+
+Mozilla_Firefox 18548
+ Process name: 0x101 NetLock - Management Console(18548) Path: C:\Users\User\OneDrive - 0x101 Cyber Security\Projekte\0x101-NetLock\0x101 NetLock - Management Console\0x101 NetLock - Management Console\bin\Debug\0x101 NetLock - Management Console.exe
+
+Mozilla_Firefox 14668
+ Process name: RuntimeBroker(14668) Path: C:\Windows\System32\RuntimeBroker.exe
+
+Mozilla_Firefox 8096
+ Process name: steamwebhelper(8096) Path: C:\Program Files (x86)\Steam\bin\cef\cef.win7x64\steamwebhelper.exe
+
+Mozilla_Firefox 14232
+ Process name: Teams(14232) Path: C:\Users\User\AppData\Local\Microsoft\Teams\current\Teams.exe
+
+Mozilla_Firefox 12076
+ Process name: ProcessHacker(12076) Path: C:\Program Files\Process Hacker 2\ProcessHacker.exe
+
+Mozilla_Firefox 13364
+ Process name: msedgewebview2(13364) Path: C:\Program Files (x86)\Microsoft\EdgeWebView\Application\102.0.1245.44\msedgewebview2.exe
+
+Mozilla_Firefox 20084
+ Process name: msedgewebview2(20084) Path: C:\Program Files (x86)\Microsoft\EdgeWebView\Application\102.0.1245.44\msedgewebview2.exe
+
