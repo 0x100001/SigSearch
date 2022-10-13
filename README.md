@@ -15,3 +15,11 @@ Features:
 -Scan process  
 -Scan all processes  
 -Scan all processes (binaries)
+
+# Screenshots
+  Scan results
+  ![You should see a screenshot here](/Screenshot1.PNG?raw=true "Scan results")
+  Add new rule
+  ![You should see a screenshot here](/Screenshot2.PNG?raw=true "Add new rule")
+  Rule editor
+  ![You should see a screenshot here](/Screenshot3.PNG?raw=true "Rule editor")
